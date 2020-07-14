@@ -163,7 +163,7 @@
         <td>{{$value.name}}</td>
         <td>{{$value.skill}}</td>
         <td>
-          <button onclick="location.href='./edit.html'" class="btn btn-primary">编辑</button>
+          <button onclick="location.href='./edit.html?id={{$value.id}}'" class="btn btn-primary">编辑</button>
           <button data-id={{$value.id}} class="btn btn-danger">删除</button>
         </td>
       </tr>
